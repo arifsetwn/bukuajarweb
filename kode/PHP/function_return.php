@@ -5,4 +5,3 @@ function luas($panjang, $lebar)
 }
 
 echo "luas persegi adalah = ".luas(5,2);
-?>

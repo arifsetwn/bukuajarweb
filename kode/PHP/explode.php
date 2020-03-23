@@ -1,6 +1,7 @@
 <?php
 $kalimat = "Selamat Datang di UMS";
 echo $kalimat;
+
 //menggunakan fungsi strlen
 echo "</br>Jumlah huruf adalah : " . strlen($kalimat);
 

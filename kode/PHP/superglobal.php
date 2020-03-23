@@ -2,7 +2,8 @@
 $a = 5;
 $b = 10;
 
-function tambah(){
+function tambah()
+{
     $GLOBALS['c'] = $GLOBALS['a'] + $GLOBALS['y'];
 }
 tambah();

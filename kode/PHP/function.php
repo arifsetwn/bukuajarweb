@@ -1,5 +1,6 @@
 <?php
-function hello(){
+function hello()
+{
     echo "<h1>Selamat Datang di UMS</h1>";
 }
 
