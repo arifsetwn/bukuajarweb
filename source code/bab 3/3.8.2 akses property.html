@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Object</title>
+  </head>
+  <body>
+    <div id="data"></div>
+    <script>
+      let Mobil = {
+        tipeMobil: "Honda Jazz",
+        tipeTransmisi: "FWD",
+        warna: "hitam",
+        maju: function () {
+          return "Mobil Maju";
+        },
+        mundur: function () {
+          return "Mobil Mundur";
+        },
+      };
+
+      document.getElementById("data").innerHTML =
+        Mobil.tipeMobil + " " + Mobil.maju();
+    </script>
+  </body>
+</html>
